@@ -1,0 +1,471 @@
+               
+a {
+	color:rgb(255, 4, 242);
+}
+/* Home Page */ 
+* {
+	box-sizing:border-box;
+  }
+  
+   div.page {
+	background-image:url("backgrounds/blueshroom.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	overflow: auto;
+	z-index: 1;
+  }
+
+  @font-face {
+	 font-family: 'boldgold'; 
+	 src: url('fonts/boldgold-display.otf')
+  }
+  @font-face {
+	  font-family: 'artistfont';
+	  src: url('fonts/artist-font.otf')
+  }
+  @font-face {
+	  font-family: 'blocks';
+	  src: url('fonts/blocks-on-blocks.otf')
+  }
+  @font-face {
+	font-family: 'slash';
+	src: url('fonts/slash-standard.otf')
+}
+@font-face {
+	font-family: 'slowscript';
+	src: url('fonts/slowscript-one.otf')
+}
+@font-face {
+	font-family: 'squarevetica';
+	src: url('fonts/squarevetica-regular.otf')
+}
+@font-face {
+	font-family: 'punk';
+	src: url('fonts/punk kid.ttf')
+}
+@font-face {
+	font-family: 'aaleyah';
+	src: url('fonts/aaleyah.otf')
+}
+@font-face {
+	font-family: 'bock';
+	src: url('fonts/bock.otf')
+}
+@font-face {
+	font-family: 'quickat';
+	src: url('fonts/quickat.ttf')
+}
+@font-face {
+	font-family: 'sketch';
+	src: url('fonts/sketch-script-cool.otf')
+}
+@font-face {
+	font-family: 'nevrada';
+	src: url('fonts/al-nevrada.otf')
+}
+@font-face {
+	font-family: 'veshion';
+	src: url('fonts/al-veshion.otf')
+}
+@font-face {
+	font-family: 'urban';
+	src: url('fonts/urban-slick.ttf')
+}
+@font-face {
+	font-family: 'retwisted';
+	src: url('fonts/retwisted.otf')
+}
+@font-face {
+	font-family: 'bravest';
+	src: url('fonts/bravest.otf')
+}
+#wrapper {
+	text-align: center;
+  }
+  h1 {
+	  font-family: 'boldgold';
+	  font-size: 60px;
+	  color: rgb(18, 60, 88);
+	  background-color: rgba(255, 255, 255, 0.459);
+	  text-align: center;
+	  margin-left: 300px;
+	  margin-right: 300px;
+	  margin-top: 100px;
+	  padding: 10px; 
+	  position: relative;
+	  animation: glitch-skew 0.5s infinite linear alternate-reverse; 
+  }
+
+  @keyframes glitch-anim {
+	0% {
+	  clip: rect(30px, 9999px, 42px, 0);
+	  transform: skew(0.85deg);
+	}
+	5% {
+	  clip: rect(59px, 9999px, 21px, 0);
+	  transform: skew(0.34deg);
+	}
+	10% {
+	  clip: rect(99px, 9999px, 15px, 0);
+	  transform: skew(0.01deg);
+	}
+	15% {
+	  clip: rect(25px, 9999px, 61px, 0);
+	  transform: skew(0.97deg);
+	}
+	20% {
+	  clip: rect(35px, 9999px, 42px, 0);
+	  transform: skew(0.94deg);
+	}
+	25% {
+	  clip: rect(39px, 9999px, 62px, 0);
+	  transform: skew(0.31deg);
+	}
+	30% {
+	  clip: rect(62px, 9999px, 55px, 0);
+	  transform: skew(0.9deg);
+	}
+	35% {
+	  clip: rect(36px, 9999px, 31px, 0);
+	  transform: skew(0.13deg);
+	}
+	40% {
+	  clip: rect(27px, 9999px, 26px, 0);
+	  transform: skew(0.01deg);
+	}
+	45% {
+	  clip: rect(55px, 9999px, 9px, 0);
+	  transform: skew(0.5deg);
+	}
+	50% {
+	  clip: rect(69px, 9999px, 73px, 0);
+	  transform: skew(0.85deg);
+	}
+	55% {
+	  clip: rect(53px, 9999px, 89px, 0);
+	  transform: skew(0.15deg);
+	}
+	60% {
+	  clip: rect(20px, 9999px, 28px, 0);
+	  transform: skew(0.62deg);
+	}
+	65% {
+	  clip: rect(81px, 9999px, 28px, 0);
+	  transform: skew(0.1deg);
+	}
+	70% {
+	  clip: rect(54px, 9999px, 93px, 0);
+	  transform: skew(0.3deg);
+	}
+	75% {
+	  clip: rect(22px, 9999px, 6px, 0);
+	  transform: skew(0.84deg);
+	}
+	80% {
+	  clip: rect(23px, 9999px, 5px, 0);
+	  transform: skew(0.55deg);
+	}
+	85% {
+	  clip: rect(24px, 9999px, 76px, 0);
+	  transform: skew(0.68deg);
+	}
+	90% {
+	  clip: rect(3px, 9999px, 29px, 0);
+	  transform: skew(0.48deg);
+	}
+	95% {
+	  clip: rect(43px, 9999px, 95px, 0);
+	  transform: skew(0.37deg);
+	}
+	100% {
+	  clip: rect(58px, 9999px, 66px, 0);
+	  transform: skew(0.05deg);
+	}
+  }
+ 
+  @keyframes glitch-skew {
+	0% {
+	  transform: skew(2deg);
+	}
+	10% {
+	  transform: skew(4deg);
+	}
+	20% {
+	  transform: skew(4deg);
+	}
+	30% {
+	  transform: skew(-2deg);
+	}
+	40% {
+	  transform: skew(4deg);
+	}
+	50% {
+	  transform: skew(2deg);
+	}
+	60% {
+	  transform: skew(-3deg);
+	}
+	70% {
+	  transform: skew(-1deg);
+	}
+	80% {
+	  transform: skew(-3deg);
+	}
+	90% {
+	  transform: skew(-2deg);
+	}
+	100% {
+	  transform: skew(-2deg);
+	}
+  }
+
+  .text {
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 25px;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-top: 100px;
+	background-color: rgba(255, 255, 255, 0.466);
+	padding: 10px;
+
+  }
+  
+  .options {
+	font-family: 'squarevetica';
+	font-size: 17px;
+	display:flex;
+	flex-wrap:wrap;
+	margin: 40px;
+	padding: 20px;
+	text-align: center;
+	}
+  
+  .options a {
+	display:block;
+	width:50%;
+	padding:20px;
+	}
+  
+  .content {
+	padding:20px;
+	background-color: rgba(255, 255, 255, 0.521);
+	transition: 0.3;
+  }
+  .content:hover {
+	background-color: blueviolet; 
+  }
+
+
+  /* fish */
+  .page.fish {
+	  background-image: url("backgrounds/fish.jpg")
+  }
+  .page.fish a.next {
+display: block;
+width: 100%;
+height: 100vh;
+background-color: rgba(255, 255, 0, 0);
+position: absolute;
+top: 0px;
+left: 0px;
+z-index: 2;
+}
+.page.fish .above {
+	position: relative;
+	z-index: 3;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+}
+
+/* falling */
+.page.falling {
+	background-image: url("backgrounds/falling.jpg");
+}
+.page.falling a.next {
+	display: block;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(255, 255, 0, 0);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	}
+.page.falling .above {
+	position: relative;
+	z-index: 3;
+	font-family: 'punk';
+	}
+
+  /* darkshape */
+  .page.darkshape {
+background-image:url("backgrounds/smoke.jpg");
+  }
+  .page.darkshape a {
+	  color: rgb(48, 3, 68);
+  }
+  .page.darkshape .top {
+	  font-family: 'slowscript';
+  }
+
+
+ /* void */
+  .page.void {
+	 background-image: url("backgrounds/void.jpg"); 
+	}
+	.page.void .top2 {
+		font-family: 'Caveat';
+	}
+
+/* spiderman */
+.page.spiderman {
+	background-image: url("backgrounds/spiderman.jpg");
+}
+.page.spiderman .spidey {
+	font-family: 'aaleyah';
+}
+
+/* concrete */
+.page.concrete {
+	background-image: url("backgrounds/concrete.jpg");
+}
+.page.concrete .conc {
+	font-family: 'bock';
+}
+
+/* barbie */
+.page.barbie {
+	background-image: url("backgrounds/barbie.jpg");
+}
+
+/* sponge */
+.page.sponge {
+	background-image: url("backgrounds/sponge.jpg");
+}
+.page.sponge .squish {
+	font-family: 'quickat';
+}
+
+/* bouncy-sand */
+.page.bouncysand {
+background-image: url("backgrounds/bouncysand.jpg");
+}
+.page.bouncysand .blind {
+	font-family:'retwisted';
+}
+
+/* bubble */
+.page.bubble {
+	background-image: url("backgrounds/bubble.jpg");
+	}
+.page.bubble .bubbles {
+	font-family: 'Shadows Into Light';
+}
+.page.bubble .extra {
+	background: rgba(255, 255, 255, 0.692);
+}
+.page.bubble .extra2 {
+	background: rgba(255, 255, 255, 0.692);
+}
+.page.bubble .extra3 {
+	background: rgba(255, 255, 255, 0.692);
+}
+
+/* look-up */
+.page.look-up {
+	background-image: url("backgrounds/look-up.jpg");
+}
+.page.look-up .video {
+	font-family: 'Merienda';
+}
+
+/* look-down */
+.page.look-down {
+	background-image: url("backgrounds/look-down.jpg")
+}
+.page.look-down .static {
+	font-family: 'squarevetica';
+}
+
+/* do-nothing */
+.page.do-nothing {
+	background-image:url("backgrounds/do-nothing.jpg")
+}
+.page.do-nothing .glum {
+	font-family: 'slowscript';
+}
+
+
+/* smiley */
+.page.smiley {
+	background-image: url("backgrounds/smiley.jpg");
+}
+.page.smiley .face {
+	font-family: 'Klee-One';
+}
+
+/* candog */
+.page.candog {
+	background-image: url("backgrounds/candog.jpg");
+}
+.page.candog .dog {
+	font-family: 'retwisted';
+}
+
+/* run */
+.page.run {
+	background-image: url("backgrounds/run.jpg");
+}
+.page.run .sprint {
+	font-family: 'bravest';
+	background-color: rgba(255, 255, 255, 0.774);
+}
+
+/* throw-can */
+.page.throw-can {
+	background-image: url("backgrounds/throw-can.jpg");
+}
+.page.throw-can .toxic {
+	font-family: 'urban';
+}
+
+/* triangle */
+.page.triangle {
+	background-image: url("backgrounds/triangle.jpg");
+}
+
+/* square */
+.page.sqaure {
+	background-image: url("backgrounds/square.jpg");
+
+}
+
+/* wriggling */
+.page.wriggling {
+	background-image: url("backgrounds/wriggling.jpg");
+}
+.page.wriggling .push {
+	font-family: 'sketch';
+	background-color: rgba(255, 255, 255, 0.726);
+}
+
+/* tree-branches */
+.page.tree-branches {
+	background-image: url("backgrounds/tree-branches.jpg");
+}
+.page.tree-branches .roots {
+	font-family: 'nevrada';
+	background-color: rgba(255, 255, 255, 0.699);
+}
+
+/* wind-grass */
+.page.wind-grass {
+	background-image: url("backgrounds/wind-grass.jpg");
+}
+.page.wind-grass .blade {
+	font-family: 'veshion';
+}
