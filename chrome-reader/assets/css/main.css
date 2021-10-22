@@ -34,7 +34,7 @@ h1 {
 
 button {
 	text-align: center;
-	margin: 1vh;
+	margin: 4vh;
 	padding: 0.5vh;
 	font-family: 'Overpass Mono', sans-serif;
 	font-size: 2vw;
@@ -48,7 +48,7 @@ button:hover {
 h3 {
 	font-family: 'Overpass Mono', sans-serif;
 	font-size: 1.3vw;
-	line-height: 1.3vw;
+	line-height: 1.5vw;
 	
 }
 
@@ -84,6 +84,7 @@ h3 {
 	line-height: 1.5vw;
 	height: 100vh;
 	overflow: scroll;
+	background-color: rgba(166, 255, 0, 0.356);
 	
 }
 
@@ -114,6 +115,7 @@ footer {
 	font-family: 'Comic Neue', cursive;
 	font-weight: 400;
 	font-size: 1.3vw;
+	line-height: 1.5vw;
 	margin-left: 10vh;
 	margin-right: 10vh;
 	margin-top: 3vh;
@@ -148,6 +150,72 @@ footer {
 	font-weight: 400;
 	font-size: 1.3vw;
 	text-indent: 2vh;
+	line-height: 1.5vw;
 	padding: 10vh;
 	background-color: rgba(255, 0, 0, 0.308);
 }
+
+.useless {
+	font-family: 'Comic Neue', cursive;
+	font-size: 6vw;
+	background-color: rgb(255, 1, 1);
+	width: 40%;
+	margin-top: 5vh;
+	padding: 2vh;
+
+}
+
+.madbro {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.phototwo {
+	width: 40.3333%;
+}
+
+.contenttwo {
+	width: 50.333%;
+	font-family: 'Impact', sans-serif;
+	font-size: 3vw;
+	color: rgb(99, 57, 27);
+	border: 3px dashed rgb(44, 44, 44);
+	border-radius: 40px;
+	padding: 2vh;
+	text-align: center;
+}
+
+.fourth-text {
+	font-family: 'Comic Neue', cursive;
+	font-weight: 400;
+	font-size: 1.3vw;
+	text-indent: 2vh;
+	padding: 7vh;
+	columns: 2;
+	background-color: rgba(43, 255, 0, 0.418);
+}
+.pepper {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	margin: 4vh;
+	padding: 4vh;
+}
+
+h6 {
+	font-family: 'Overpass Mono', sans-serif;
+	font-weight: 300;
+	font-size: 2.5vw;
+
+}
+.fifth-text {
+	font-family: 'Comic Neue', cursive;
+	font-weight: 400;
+	font-size: 1.3vw;
+	text-indent: 2vh;
+	padding: 7vh;
+	columns: 2;
+	background-color: rgba(43, 255, 0, 0.418);
+}
+
