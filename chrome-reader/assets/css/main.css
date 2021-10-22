@@ -7,7 +7,7 @@ a {
 }
 
 img {
-	max-width: 40%;
+	max-width: 100%;
 }
 	
 h1 {
@@ -48,23 +48,53 @@ button:hover {
 h3 {
 	font-family: 'Overpass Mono', sans-serif;
 	font-size: 1.3vw;
-	margin-top: -50vw;
-	margin-right: 3vw;
-	margin-left: 25vw;
 	line-height: 1.3vw;
 	
 }
+
+.intro {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.patrik {
+	width: 33.333%;
+}
+
+.bubble {
+	border:3px dashed black;
+	width:66.666%;
+	padding: 3vw;
+	border-radius: 80px;
+}
+
+.section-one {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
 .first-text {
 	font-family: 'Comic Neue', cursive;
 	font-size: 1.3vw;
-	margin-left: 50vw;
-	margin-right: 3vw;
-	margin-top: 3em;
+	width: 66.3333%;
 	text-indent: 2vh;
-	padding: 2vh;
+	padding: 5vh;
 	line-height: 1.5vw;
+	height: 100vh;
+	overflow: scroll;
 	
 }
+
+.sidebar {
+	width: 33.333%;
+	height: 100vh;
+	background-color: rgb(200, 255, 0);
+	overflow: scroll;
+	padding-top: 20px;
+  }
+
 h4 {
 	font-family: 'Overpass Mono', sans-serif;
 	font-weight: 300;
@@ -91,10 +121,3 @@ footer {
 	columns: 2;
 	padding: 3vh;
 }
-.sidebar {
-	width: 35%;
-	height: 100vh;
-	background-color: rgb(200, 255, 0);
-	overflow: scroll;
-	padding-top: 20px;
-  }
