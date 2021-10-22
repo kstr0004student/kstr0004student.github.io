@@ -120,4 +120,34 @@ footer {
 	text-indent: 2vh;
 	columns: 2;
 	padding: 3vh;
+	background-color: rgba(0, 0, 255, 0.308);
+}
+
+.simply-meme {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.content {
+	width: 66.3333%;
+	font-family: 'Impact', sans-serif;
+	font-size: 3vw;
+	color: rgb(83, 83, 83);
+	border: 3px dashed rgb(135, 135, 136);
+	border-radius: 40px;
+	padding: 2vh;
+}
+
+.photo {
+	width: 33.333%;
+}
+
+.third-text {
+	font-family: 'Comic Neue', cursive;
+	font-weight: 400;
+	font-size: 1.3vw;
+	text-indent: 2vh;
+	padding: 10vh;
+	background-color: rgba(255, 0, 0, 0.308);
 }
