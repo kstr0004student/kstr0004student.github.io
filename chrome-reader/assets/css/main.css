@@ -9,6 +9,16 @@ a {
 img {
 	max-width: 100%;
 }
+
+.nav {
+	font-family: 'Impact';
+	font-size: 2vw;
+	border: solid black 2px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	background-color: white;
+}
 	
 h1 {
 	font-family: 'Impact';
