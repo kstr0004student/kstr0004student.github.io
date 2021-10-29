@@ -4,6 +4,7 @@ body {
 
 a {
 	color:rgb(255, 255, 255);
+	text-decoration: none;
 }
 
 img {
@@ -71,6 +72,27 @@ h3 {
 	align-items: flex-start;
 }
 
+.title {
+	font-family: 'Impact';
+	font-size: 5vw;
+	width: 100%;
+	text-align: center;
+	color: black;
+	margin-bottom: 20px;
+	line-height: 4.5vw;
+	margin-top: 20px;
+}
+
+.subheading {
+	font-family: 'Arial';
+	font-size: 1vw;
+	width: 100%;
+	text-align: center;
+	color: rgb(87, 87, 87);
+	margin-bottom: 30px;
+
+}
+
 .first-text {
 	font-family: 'Comic Neue', cursive;
 	font-size: 1.3vw;
@@ -103,14 +125,14 @@ h4 {
 	font-weight: 300;
 	font-size: 2.5vw;
 	margin-top: 3vh;
-	margin-left: 5vh;
-	margin-right: 5vh;
+	margin-left: 7vh;
+	margin-right: 7vh;
 }
 
 footer {
 	font-family: 'Arial', sans-serif;
 	font-size: 1vw;
-	margin-left: 5vh;
+	margin-left: 10vh;
 	margin-top: 10px;
 
 }
@@ -160,17 +182,12 @@ footer {
 	font-size: 1.3vw;
 	text-indent: 2vh;
 	line-height: 1.5vw;
-	padding: 10vh;
+	margin-top: 5vh;
+	margin-bottom: 2vh;
+	margin-right: 10vh;
+	margin-left: 10vh;
 	columns: 2;
 
-}
-
-.u-mad {
-	font-family: 'Impact';
-	font-size: 7vw;
-	color: black;
-	text-align: center;
-	margin-top: 30px;
 }
 
 .phototwo {
@@ -188,32 +205,48 @@ footer {
 	text-align: center;
 }
 
+.u-mad {
+	font-family: 'Impact';
+	font-size: 8vw;
+	width: 100%;
+	color: black;
+	text-align: center;
+	margin-top: 50px;
+
+}
 .fourth-text {
 	font-family: 'Comic Neue', cursive;
 	font-weight: 400;
 	font-size: 1.3vw;
 	text-indent: 2vh;
-	padding: 7vh;
+	margin-left: 10vh;
+	margin-right: 10vh;
+	margin-top: 3vh;
 	columns: 2;
+	padding: 3vh;
 
 }
 .pepper {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: flex-start;
-	margin: 4vh;
-	padding: 4vh;
+	margin-top: 10px;
+	padding: 2vh;
 }
 
 .pepper img {
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
+
 h6 {
 	font-family: 'Overpass Mono', sans-serif;
 	font-weight: 300;
 	font-size: 2.5vw;
+	margin-top: 3vh;
+	margin-left: 7vh;
+	margin-right: 7vh;
 
 }
 .fifth-text {
@@ -226,18 +259,46 @@ h6 {
 
 }
 
+.congrats {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-top: 30px;
+	background-color: rgb(255, 255, 255);
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 80px;
+}
+
+.contentthree {
+	width: 66.3333%;
+	font-family: 'Impact', sans-serif;
+	font-size: 5vw;
+	color: rgb(0, 0, 0);
+	padding: 2vh;
+	text-align: center;
+}
+
+.photothree {
+	width: 33.333%;
+}
+
+
 .useless {
 	font-family: 'Impact';
-	font-size: 6vw;
+	font-size: 3vw;
 	color: white;
 	background-color: rgb(0, 0, 0);
-	width: 40%;
+	width: 30%;
 	margin-top: 5vh;
 	padding: 2vh;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	border-radius: 80px;
+	line-height: 7vh;
+
 
 }
 
@@ -250,8 +311,8 @@ h6 {
 	bottom: 20px;
 	right: 20px;
 	width: 300px;
-	border-radius: 80px;
-	background-color: black;
+	border-radius: 60px;
+	background-color: rgb(71, 71, 71);
 	color: white;
 	padding: 20px;
 	display: none;
@@ -291,4 +352,13 @@ h6 {
 
 .notification3.show {
 	display: flex;
+}
+
+.end-page {
+	font-family: 'Arial', sans-serif;
+	font-size: 1vw;
+	width: 100%;
+	margin-top: 10px;
+	background-color: rgb(66, 66, 66);
+	color: white;
 }
