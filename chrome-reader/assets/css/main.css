@@ -12,7 +12,7 @@ img {
 
 .nav {
 	font-family: 'Impact';
-	font-size: 2vw;
+	font-size: 1.5vw;
 	border: solid black 2px;
 	position: fixed;
 	text-align: center;
@@ -35,6 +35,7 @@ h1 {
 .fun {
 	font-family: 'Times New Roman';
 }
+
 .thicc {
 	font-family: 'Impact';
 	color: rgb(9, 255, 0);
@@ -42,24 +43,11 @@ h1 {
 	-webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
-button {
-	text-align: center;
-	margin: 4vh;
-	padding: 0.5vh;
-	font-family: 'Overpass Mono', sans-serif;
-	font-size: 2vw;
-	background-color: rgb(255, 89, 255);
-	
-}
-button:hover {
-	background-color: rgb(9, 34, 255);
-}
 
 h3 {
 	font-family: 'Overpass Mono', sans-serif;
 	font-size: 1.3vw;
-	line-height: 1.5vw;
-	
+	line-height: 1.5vw;	
 }
 
 .intro {
@@ -120,10 +108,12 @@ h4 {
 	margin-left: 5vh;
 	margin-right: 5vh;
 }
+
 footer {
 	font-family: 'Arial', sans-serif;
 	font-size: 1vw;
 	margin-left: 5vh;
+	margin-top: 10px;
 
 }
 
@@ -173,27 +163,16 @@ footer {
 	text-indent: 2vh;
 	line-height: 1.5vw;
 	padding: 10vh;
+	columns: 2;
 
 }
 
-.useless {
-	font-family: 'Comic Neue', cursive;
-	font-size: 6vw;
-	background-color: rgb(255, 1, 1);
-	width: 40%;
-	margin-top: 5vh;
-	padding: 2vh;
-	margin-left: auto;
-	margin-right: auto;
+.u-mad {
+	font-family: 'Impact';
+	font-size: 7vw;
+	color: black;
 	text-align: center;
-	border-radius: 80px;
-
-}
-
-.madbro {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
+	margin-top: 30px;
 }
 
 .phototwo {
@@ -249,3 +228,68 @@ h6 {
 
 }
 
+.useless {
+	font-family: 'Comic Neue', cursive;
+	font-size: 6vw;
+	background-color: rgb(255, 1, 1);
+	width: 40%;
+	margin-top: 5vh;
+	padding: 2vh;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 80px;
+
+}
+
+.greed {
+	
+}
+
+.notification {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 300px;
+	border-radius: 80px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	display: none;
+	flex-wrap: wrap;
+	align-items: center;
+	font-family: 'Comic Neue';
+
+}
+
+.notification img {
+	width: 33%; 
+	padding-right: 2%;
+	
+}
+
+.notification .message {
+	width: 66%;
+
+}
+
+.notification1.show {
+	display: flex;
+}
+
+.dawkins {
+	
+}
+
+
+.notification2.show {
+	display: flex;
+}
+
+.public {
+	
+}
+
+.notification3.show {
+	display: flex;
+}
