@@ -3,7 +3,7 @@ body {
 }
 
 a {
-	color:red;
+	color:rgb(0, 0, 0);
 }
 
 img {
@@ -63,10 +63,11 @@ h3 {
 }
 
 .bubble {
-	border:3px dashed black;
 	width:66.666%;
 	padding: 3vw;
 	border-radius: 80px;
+	background-color: black;
+	color: white;
 }
 
 .section-one {
@@ -84,7 +85,8 @@ h3 {
 	line-height: 1.5vw;
 	height: 100vh;
 	overflow: scroll;
-	background-color: rgba(166, 255, 0, 0.356);
+	border-top: solid black 1px;
+	border-bottom: solid black 1px;
 	
 }
 
@@ -95,6 +97,10 @@ h3 {
 	overflow: scroll;
 	padding-top: 20px;
   }
+
+.sidebar img {
+	padding: 80px;
+}
 
 h4 {
 	font-family: 'Overpass Mono', sans-serif;
@@ -122,23 +128,28 @@ footer {
 	text-indent: 2vh;
 	columns: 2;
 	padding: 3vh;
-	background-color: rgba(0, 0, 255, 0.308);
+
 }
 
 .simply-meme {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: flex-start;
+	align-items: center;
+	margin-top: 30px;
+	background-color: black;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 80px;
 }
 
 .content {
 	width: 66.3333%;
 	font-family: 'Impact', sans-serif;
-	font-size: 3vw;
-	color: rgb(83, 83, 83);
-	border: 3px dashed rgb(135, 135, 136);
-	border-radius: 40px;
+	font-size: 5vw;
+	color: rgb(255, 255, 255);
 	padding: 2vh;
+	text-align: center;
 }
 
 .photo {
@@ -152,7 +163,7 @@ footer {
 	text-indent: 2vh;
 	line-height: 1.5vw;
 	padding: 10vh;
-	background-color: rgba(255, 0, 0, 0.308);
+
 }
 
 .useless {
@@ -162,6 +173,10 @@ footer {
 	width: 40%;
 	margin-top: 5vh;
 	padding: 2vh;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 80px;
 
 }
 
@@ -193,7 +208,7 @@ footer {
 	text-indent: 2vh;
 	padding: 7vh;
 	columns: 2;
-	background-color: rgba(43, 255, 0, 0.418);
+
 }
 .pepper {
 	display: flex;
@@ -203,6 +218,11 @@ footer {
 	padding: 4vh;
 }
 
+.pepper img {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
 h6 {
 	font-family: 'Overpass Mono', sans-serif;
 	font-weight: 300;
@@ -216,6 +236,6 @@ h6 {
 	text-indent: 2vh;
 	padding: 7vh;
 	columns: 2;
-	background-color: rgba(43, 255, 0, 0.418);
+
 }
 
