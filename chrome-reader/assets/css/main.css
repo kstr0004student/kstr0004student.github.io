@@ -3,7 +3,7 @@ body {
 }
 
 a {
-	color:rgb(0, 0, 0);
+	color:rgb(255, 255, 255);
 }
 
 img {
@@ -23,13 +23,11 @@ img {
 h1 {
 	font-family: 'Impact';
 	font-size: 10vw;
-	line-height: 7vw;
+	line-height: 10vw;
 	text-align: center;
 	margin-top: 2vh;
 	margin-bottom: 3vh;
 	padding: 8vh;
-	-webkit-text-stroke-width: 0.2vw;
-	-webkit-text-stroke-color: rgb(0, 255, 13);
 
 }
 .fun {
@@ -38,9 +36,8 @@ h1 {
 
 .thicc {
 	font-family: 'Impact';
-	color: rgb(9, 255, 0);
-	-webkit-text-stroke-width: 0.2vw;
-	-webkit-text-stroke-color: rgb(0, 0, 0);
+	color: rgb(121, 121, 121);
+
 }
 
 
@@ -79,7 +76,7 @@ h3 {
 	font-size: 1.3vw;
 	width: 66.3333%;
 	text-indent: 2vh;
-	padding: 5vh;
+	padding: 8vh;
 	line-height: 1.5vw;
 	height: 100vh;
 	overflow: scroll;
@@ -97,7 +94,8 @@ h3 {
   }
 
 .sidebar img {
-	padding: 80px;
+	padding: 50px;
+
 }
 
 h4 {
@@ -229,9 +227,10 @@ h6 {
 }
 
 .useless {
-	font-family: 'Comic Neue', cursive;
+	font-family: 'Impact';
 	font-size: 6vw;
-	background-color: rgb(255, 1, 1);
+	color: white;
+	background-color: rgb(0, 0, 0);
 	width: 40%;
 	margin-top: 5vh;
 	padding: 2vh;
